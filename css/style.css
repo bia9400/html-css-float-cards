@@ -56,15 +56,18 @@ header h1{
     width:calc((100% - 30px*2 )/3 );
     background-color: rgba(15,14,23,255);
 }
+/* Correzione marine sinistro e destro per centratura blocchi */
 #marginFix-left{
     margin-left: 0;
 }
 #marginFix-right{
     margin-right: 0;
 }
+/* Ridimensionamento delle immagine ad un unca altezza */
 img {
     width: 100px;
 }
+/*Regolazione del testo dei float-right */
 .text{
     height: 100%;
     color: rgba(219,224,231,255);
