@@ -1,0 +1,82 @@
+/* Reset margin,padding + header  */
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header { 
+    text-align: center;
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+}
+header> p,h1 {
+    padding: 15px 0 15px 0;
+}
+/* Creazione classe reset "clearfix" */
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+/* Reset e controllo del container */
+.container {
+    width: 90%;
+    max-width: 1500px;
+    height: 240px;
+    min-width: 500px;
+    margin: auto;
+
+}
+header h1{
+    font-size: 40px;
+    color: #e53170;
+}
+
+/* CSS per le righe e per i float*/
+.rule {
+
+    margin-top: 40px;
+}
+.float-right {
+    float: right;
+    text-align: left;
+    padding-left: 10px;
+    width: calc(100% - 100px);
+}
+.float-left {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 100px;
+    width:calc((100% - 30px*2 )/3 );
+    background-color: rgba(15,14,23,255);
+}
+/* Correzione marine sinistro e destro per centratura blocchi */
+#marginFix-left{
+    margin-left: 0;
+}
+#marginFix-right{
+    margin-right: 0;
+}
+/* Ridimensionamento delle immagine ad un unca altezza */
+img {
+    width: 100px;
+}
+/*Regolazione del testo dei float-right */
+.text{
+    height: 100%;
+    color: rgba(219,224,231,255);
+    padding-top:5px;
+    padding-bottom: 5px;
+} 
+.text> div {
+   height: calc(100%/3);
+   padding-top:5px;
+    padding-bottom: 5px;
+}
+/* Modifiche bonus */
