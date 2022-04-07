@@ -27,28 +27,53 @@ header> p,h1 {
 .container {
     width: 90%;
     max-width: 1500px;
-    height: 560px;
+    height: 240px;
     min-width: 500px;
     margin: auto;
-    background-color: blue;
-}
 
+}
+h1{
+    font-size: 20px;
+}
+p{
+    margin-bottom: 5px;
+}
 /* Prove sperimentali */
 .rule {
 
     margin-top: 40px;
 }
+.float-right {
+    float: right;
+    text-align: left;
+    padding-left: 10px;
+    width: calc(100% - 100px);
+}
 .float-left {
     float: left;
     margin-right: 15px;
     margin-left: 15px;
-    height: 260px;
+    height: 100px;
     width:calc((100% - 30px*2 )/3 );
-    background-color: blueviolet;
+    background-color: rgba(15,14,23,255);
 }
 #marginFix-left{
     margin-left: 0;
 }
 #marginFix-right{
     margin-right: 0;
+}
+img {
+    width: 100px;
+}
+.text{
+    height: 100%;
+    color: rgba(219,224,231,255);
+    padding-top:5px;
+    padding-bottom: 5px;
+} 
+.text> div {
+   height: calc(100%/3);
+   padding-top:5px;
+    padding-bottom: 5px;
 }
