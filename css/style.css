@@ -32,8 +32,9 @@ header> p,h1 {
     margin: auto;
 
 }
-h1{
-    font-size: 20px;
+header h1{
+    font-size: 40px;
+    color: #e53170;
 }
 p{
     margin-bottom: 5px;
