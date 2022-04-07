@@ -17,17 +17,19 @@
     <main>
         <!-- Creazione container per gestione della gradezza rispetto alla pagina -->
         <div class="container">
-        <!-- Creo delle "righe uguali dove inserire i miei float" -->    
+        <!-- Creo delle "righe uguali dove inserire i miei float e specifico clearfix" -->    
             <div class="rule clearfix">
-        <!-- All'interno delle rghe me -->        
+        <!-- All'interno delle righe metto i blocchi float suddivisi a ua volta in 2 (un' immagine ed un altro blocco float con dentro 3div (nome, professione, link)quindi specifico il clearfix)-->        
                 <div class="block clearfix float-left" id="marginFix-left">
                     <img src="img/falcone.webp" alt="">
                     <div class="text float-right">
+        <!-- Do alcuni style da "in-line per snellire il CSS" -->                
                         <div style="font-weight: 900; font-size: 20px; color: rgba(255,255,254,255);">Giovanni Falcone</div>
                         <div style="margin-top: 9px;">Eroe</div>
                         <div><a href="https://it.wikipedia.org/wiki/Giovanni_Falcone" style="color: #42baea; font-size: 13px;">wiipedia Falcone</a></div>
                     </div>
                 </div>
+        <!-- Da qui in poi è tutto copia ed incolla -->
                 <div class="block clearfix float-left">
                     <img src="img/female1.png" alt="">
                     <div class="text float-right">
