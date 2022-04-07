@@ -19,7 +19,7 @@ header> p,h1 {
 }
 /* Creazione classe reset "clearfix" */
 .clearfix::after {
-    content: ("");
+    content:"";
     display: table;
     clear: both;
 }
@@ -31,4 +31,24 @@ header> p,h1 {
     min-width: 500px;
     margin: auto;
     background-color: blue;
+}
+
+/* Prove sperimentali */
+.rule {
+
+    margin-top: 40px;
+}
+.float {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 260px;
+    width:calc((100% - 30px*2 )/3 );
+    background-color: blueviolet;
+}
+#marginFix-left{
+    margin-left: 0;
+}
+#marginFix-right{
+    margin-right: 0;
 }
